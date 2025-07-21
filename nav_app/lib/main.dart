@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:nav_app/app_home.dart';
-import 'package:nav_app/news.dart';
 
 void main() {
   runApp(const MainApp());
