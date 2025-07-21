@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nav_app/app_home.dart';
 import 'package:nav_app/news.dart';
 
 void main() {
@@ -10,17 +11,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.lime,
-          centerTitle: true,
-          title: Text('My App'),
-        ),
-        body: News(),
-        //body: Likes(),
-        //body: Profile(),
-      ),
-    );
+    return MaterialApp(home: AppHome());
   }
 }
